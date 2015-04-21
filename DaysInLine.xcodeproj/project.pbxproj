@@ -239,6 +239,8 @@
 		A4B6A4A01A230188000A3190 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B6A49D1A230188000A3190 /* play.png */; };
 		A4B6A4A11A230188000A3190 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B6A49E1A230188000A3190 /* record.png */; };
 		A4B6A4A21A230188000A3190 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B6A49F1A230188000A3190 /* stop.png */; };
+		A4C856E81AE639E8005208F0 /* statsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C856E71AE639E8005208F0 /* statsInterfaceController.m */; };
+		A4C856E91AE63B42005208F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A53D71812274D0085FFD7 /* InfoPlist.strings */; };
 		A4CF989F1AE4D37C00B599DC /* dayLineInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF989E1AE4D37C00B599DC /* dayLineInterfaceController.m */; };
 		A4FFCDE41A173CBA00B16AE3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FFCDE31A173CBA00B16AE3 /* EventKit.framework */; };
 		A4FFCDE61A173CBF00B16AE3 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FFCDE51A173CBF00B16AE3 /* EventKitUI.framework */; };
@@ -572,6 +574,8 @@
 		A4B6A49D1A230188000A3190 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = resources/play.png; sourceTree = "<group>"; };
 		A4B6A49E1A230188000A3190 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record.png; path = resources/record.png; sourceTree = "<group>"; };
 		A4B6A49F1A230188000A3190 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = resources/stop.png; sourceTree = "<group>"; };
+		A4C856E61AE639E8005208F0 /* statsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statsInterfaceController.h; sourceTree = "<group>"; };
+		A4C856E71AE639E8005208F0 /* statsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statsInterfaceController.m; sourceTree = "<group>"; };
 		A4CF989D1AE4D37C00B599DC /* dayLineInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dayLineInterfaceController.h; sourceTree = "<group>"; };
 		A4CF989E1AE4D37C00B599DC /* dayLineInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dayLineInterfaceController.m; sourceTree = "<group>"; };
 		A4FFCDE31A173CBA00B16AE3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -1044,6 +1048,8 @@
 				A4CF989E1AE4D37C00B599DC /* dayLineInterfaceController.m */,
 				A465D2341ADF936D002CE071 /* rowInterfaceController.h */,
 				A465D2351ADF936D002CE071 /* rowInterfaceController.m */,
+				A4C856E61AE639E8005208F0 /* statsInterfaceController.h */,
+				A4C856E71AE639E8005208F0 /* statsInterfaceController.m */,
 				A465D2191ADF7E8C002CE071 /* Images.xcassets */,
 				A465D2141ADF7E8C002CE071 /* Supporting Files */,
 			);
@@ -1477,6 +1483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A465D21E1ADF7E8C002CE071 /* DaysInLine WatchKit App.app in Resources */,
+				A4C856E91AE63B42005208F0 /* InfoPlist.strings in Resources */,
 				A465D21A1ADF7E8C002CE071 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1544,6 +1551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A465D23D1ADFA492002CE071 /* MonthInterfaceController.m in Sources */,
+				A4C856E81AE639E8005208F0 /* statsInterfaceController.m in Sources */,
 				A465D2541ADFACE7002CE071 /* FMDatabaseQueue.m in Sources */,
 				A415753B1AE0E6B100619974 /* Event.m in Sources */,
 				A465D2361ADF936D002CE071 /* rowInterfaceController.m in Sources */,

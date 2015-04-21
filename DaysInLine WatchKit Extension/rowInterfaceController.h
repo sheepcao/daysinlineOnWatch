@@ -12,4 +12,7 @@
 @interface rowInterfaceController : NSObject
 
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *rowTitle;
+
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *statsNum;
+
 @end

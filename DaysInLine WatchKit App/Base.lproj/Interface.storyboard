@@ -37,6 +37,39 @@
             </objects>
             <point key="canvasLocation" x="335" y="344"/>
         </scene>
+        <!--statsInterfaceController-->
+        <scene sceneID="wae-wQ-SNR">
+            <objects>
+                <controller identifier="statsInterfaceController" id="cqd-UH-N1T" customClass="statsInterfaceController">
+                    <items>
+                        <table alignment="center" id="jrc-0e-RK5">
+                            <items>
+                                <tableRow identifier="defaultRow" id="RIa-ui-U3q" customClass="rowInterfaceController">
+                                    <group key="rootItem" width="1" alignment="left" id="F20-iJ-3Rx">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="IWp-5u-sC2">
+                                                <fontDescription key="font" type="system" pointSize="15"/>
+                                            </label>
+                                            <label width="52" alignment="right" verticalAlignment="center" text="Label" textAlignment="right" id="312-hI-v2Z">
+                                                <fontDescription key="font" type="system" weight="thin" pointSize="17"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowTitle" destination="IWp-5u-sC2" id="NVX-1h-zeG"/>
+                                        <outlet property="statsNum" destination="312-hI-v2Z" id="ae6-Jy-dPd"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="statsTable" destination="jrc-0e-RK5" id="S3T-cd-FWb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="362" y="634"/>
+        </scene>
         <!--月份-->
         <scene sceneID="gKm-IS-wog">
             <objects>

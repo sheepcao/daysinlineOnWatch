@@ -46,6 +46,8 @@
 
 - (IBAction)checkStats {
     NSLog(@"bye");
+    [self pushControllerWithName:@"statsInterfaceController" context:nil];
+
 
 }
 
