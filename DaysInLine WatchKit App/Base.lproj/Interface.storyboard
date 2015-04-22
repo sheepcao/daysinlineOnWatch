@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="335" y="344"/>
         </scene>
-        <!--statsInterfaceController-->
+        <!--          -->
         <scene sceneID="wae-wQ-SNR">
             <objects>
-                <controller identifier="statsInterfaceController" id="cqd-UH-N1T" customClass="statsInterfaceController">
+                <controller identifier="statsInterfaceController" title="          " id="cqd-UH-N1T" customClass="statsInterfaceController">
                     <items>
                         <table alignment="center" id="jrc-0e-RK5">
                             <items>

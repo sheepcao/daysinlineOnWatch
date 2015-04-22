@@ -83,7 +83,7 @@
   
     
    // self.fullPhoto.backgroundColor = [UIColor blackColor];
-    self.fullPhoto.ContentMode = UIViewContentModeScaleAspectFit;
+    self.fullPhoto.contentMode = UIViewContentModeScaleAspectFit;
     
 }
 

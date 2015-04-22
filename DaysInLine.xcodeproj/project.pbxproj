@@ -241,6 +241,9 @@
 		A4B6A4A21A230188000A3190 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B6A49F1A230188000A3190 /* stop.png */; };
 		A4C856E81AE639E8005208F0 /* statsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C856E71AE639E8005208F0 /* statsInterfaceController.m */; };
 		A4C856E91AE63B42005208F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A53D71812274D0085FFD7 /* InfoPlist.strings */; };
+		A4C856F61AE65595005208F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A53D71812274D0085FFD7 /* InfoPlist.strings */; };
+		A4C856FB1AE65687005208F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4C856FE1AE65687005208F0 /* Localizable.strings */; };
+		A4C856FC1AE65687005208F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4C856FE1AE65687005208F0 /* Localizable.strings */; };
 		A4CF989F1AE4D37C00B599DC /* dayLineInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF989E1AE4D37C00B599DC /* dayLineInterfaceController.m */; };
 		A4FFCDE41A173CBA00B16AE3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FFCDE31A173CBA00B16AE3 /* EventKit.framework */; };
 		A4FFCDE61A173CBF00B16AE3 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FFCDE51A173CBF00B16AE3 /* EventKitUI.framework */; };
@@ -576,6 +579,10 @@
 		A4B6A49F1A230188000A3190 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = resources/stop.png; sourceTree = "<group>"; };
 		A4C856E61AE639E8005208F0 /* statsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statsInterfaceController.h; sourceTree = "<group>"; };
 		A4C856E71AE639E8005208F0 /* statsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statsInterfaceController.m; sourceTree = "<group>"; };
+		A4C856F71AE655FD005208F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4C856FD1AE65687005208F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4C856FF1AE6568B005208F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4C857001AE6568C005208F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		A4CF989D1AE4D37C00B599DC /* dayLineInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dayLineInterfaceController.h; sourceTree = "<group>"; };
 		A4CF989E1AE4D37C00B599DC /* dayLineInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dayLineInterfaceController.m; sourceTree = "<group>"; };
 		A4FFCDE31A173CBA00B16AE3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -1078,6 +1085,7 @@
 			isa = PBXGroup;
 			children = (
 				A465D2231ADF7E8C002CE071 /* Info.plist */,
+				A4C856FE1AE65687005208F0 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1483,6 +1491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A465D21E1ADF7E8C002CE071 /* DaysInLine WatchKit App.app in Resources */,
+				A4C856FB1AE65687005208F0 /* Localizable.strings in Resources */,
 				A4C856E91AE63B42005208F0 /* InfoPlist.strings in Resources */,
 				A465D21A1ADF7E8C002CE071 /* Images.xcassets in Resources */,
 			);
@@ -1493,9 +1502,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A465D23A1ADFA1C2002CE071 /* text.png in Resources */,
+				A4C856FC1AE65687005208F0 /* Localizable.strings in Resources */,
 				A465D2331ADF9179002CE071 /* backgroundHome.png in Resources */,
 				A465D2261ADF7E8C002CE071 /* Interface.storyboard in Resources */,
 				A465D2281ADF7E8C002CE071 /* Images.xcassets in Resources */,
+				A4C856F61AE65595005208F0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1623,6 +1634,7 @@
 				0BC09F2C1930D26300C12D89 /* ko */,
 				0BC09F311930D2BD00C12D89 /* zh-Hans */,
 				0BC09F3E1930DBDB00C12D89 /* en */,
+				A4C856F71AE655FD005208F0 /* Base */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1653,6 +1665,16 @@
 				A47EF54C1AE62559005C32E0 /* zh-Hans */,
 			);
 			name = ShareSDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		A4C856FE1AE65687005208F0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4C856FD1AE65687005208F0 /* Base */,
+				A4C856FF1AE6568B005208F0 /* en */,
+				A4C857001AE6568C005208F0 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
